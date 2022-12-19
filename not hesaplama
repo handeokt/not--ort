@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Giris {
+  public static void main(String [] args {
+     int mat,fzk,kmy,mzk,trh;
+
+     Scanner inp =new Scanner(System.in)
+
+     System.out.print("Matematik 1.dönem notunuzu giriniz :   ");
+     mat=inp.nextInt();
+     System.out.print("Fizik 1.dönem notunuzu giriniz:  ");
+     fzk=inp.nextInt();
+     System.out.print("Kimya 1.dönem notunuzu giriniz:   ");
+     kmy=inp.nextInt();
+     System.out.print("Müzik 1.dönem notunuzu giriniz :   ");
+     mzk=inp.next.Int();
+     System.out.print("Tarih 1.dönem notunuzu giriniz :   ");
+     trh=inp.nextInt();
+     
+     int toplam=(mat+fzk+kmy+mzk+trh);
+     double sonuc=(toplam/5);
+      
+      System.out.print("Dönem not ortalamanız:  "+ sonuc );
+     
+}
